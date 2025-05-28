@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
 
       - name: Run update script
-        run: python update_awesome.py
+        run: python app.py
 
       - name: Commit and push changes
         run: |
