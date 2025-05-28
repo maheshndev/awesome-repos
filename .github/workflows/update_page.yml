@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0 */7 * *'  # Every 7 days
   workflow_dispatch:       # Allow manual trigger
+  
+permissions:
+  contents: write
 
 jobs:
   build:
