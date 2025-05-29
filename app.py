@@ -12,7 +12,7 @@ def fetch_awesome_repos():
         "q": "awesome in:name",
         "sort": "stars",
         "order": "desc",
-        "per_page": 20
+        "per_page": 1000
     }
     response = requests.get(GITHUB_API_URL, headers=HEADERS, params=params)
     response.raise_for_status()
