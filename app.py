@@ -90,7 +90,7 @@ def generate_readme_md(repos):
     ])
     markdown = f"""# 📚 Awesome Repositories
 
-Last updated: **{timestamp}**
+Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.github.io/awesome-repos/)
 
 | Repository | Description | Stars | Language |
 |------------|-------------|-------|----------|
