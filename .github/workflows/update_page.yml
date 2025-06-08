@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --global user.name "maheshndev"
           git config --global user.email "github-actions@github.com"
-          git add index.html
+          git add index.html README.md
           git commit -m "Update awesome repos" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
           
