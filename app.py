@@ -8,7 +8,7 @@ HEADERS = {"Accept": "application/vnd.github+json"}
 CACHE_FILE = "repos_cache.json"
 CACHE_DURATION_MINUTES = 30  # adjust if needed
 
-def fetch_awesome_repositories(per_page=100, max_pages=20, use_cache=True):
+def fetch_awesome_repositories(per_page=100, max_pages=10, use_cache=True):
     if use_cache and os.path.exists(CACHE_FILE):
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             cached = json.load(f)
