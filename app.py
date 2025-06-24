@@ -52,7 +52,7 @@ def generate_index_html(repos):
             </div>
             <p class="text-sm text-gray-700 mt-3">{repo.get('description', 'No description.')}</p>
             <div class="flex flex-wrap mt-3 gap-2">
-                {''.join(f'<span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded"><a href="/topics/{topic}">{topic}</a></span>' for topic in repo.get('topics', []))}
+                {''.join(f'<span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded"><a href="https://github.com/topics/{topic}">{topic}</a></span>' for topic in repo.get('topics', []))}
             </div>
             <div class="text-xs text-gray-500 mt-3">
                 ⭐ {repo['stargazers_count']} stars • Updated: {repo['updated_at'][:10]}
