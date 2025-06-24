@@ -4,7 +4,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 
 | Repository | Description | Stars | Language |
 |------------|-------------|-------|----------|
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ⭐ 372052 | N/A |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ⭐ 372056 | N/A |
 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | An opinionated list of awesome Python frameworks, libraries, software and resources. | ⭐ 247605 | Python |
 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ⭐ 233561 | N/A |
 | [avelino/awesome-go](https://github.com/avelino/awesome-go) | A curated list of awesome Go frameworks, libraries and software | ⭐ 146030 | Go |
@@ -30,13 +30,13 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) | A curated list of Rust code and resources. | ⭐ 51085 | Rust |
 | [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) | A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects  | ⭐ 49194 | Swift |
 | [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp) | 微信小程序开发资源汇总 :100: | ⭐ 47823 | N/A |
-| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | ⭐ 45879 | Python |
+| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | ⭐ 45883 | Python |
 | [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | Curated List of React Components & Libraries. | ⭐ 44736 | N/A |
 | [akullpp/awesome-java](https://github.com/akullpp/awesome-java) | A curated list of awesome frameworks, libraries and software for the Java programming language. | ⭐ 44067 | N/A |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ⭐ 43094 | N/A |
 | [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) | 👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file. | ⭐ 42828 | JavaScript |
 | [docker/awesome-compose](https://github.com/docker/awesome-compose) | Awesome Docker Compose samples | ⭐ 39836 | HTML |
-| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python | ⭐ 38434 | N/A |
+| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python | ⭐ 38435 | N/A |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | ⭐ 36803 | JavaScript |
 | [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) | Awesome React Native components, news, tools, and learning material! | ⭐ 35190 | JavaScript |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ⭐ 34558 | N/A |
@@ -64,7 +64,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application | ⭐ 24660 | TeX |
 | [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) | 经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新 | ⭐ 24647 | CSS |
 | [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) | A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP. | ⭐ 23992 | N/A |
-| [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | Learn System Design concepts and prepare for interviews using free resources. | ⭐ 23961 | Java |
+| [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | Learn System Design concepts and prepare for interviews using free resources. | ⭐ 23962 | Java |
 | [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | Awesome-LLM: a curated list of Large Language Model | ⭐ 23919 | N/A |
 | [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) | 🐧 A list of awesome Linux softwares  | ⭐ 23520 | HTML |
 | [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ⭐ 23370 | N/A |
@@ -132,7 +132,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [rigtorp/awesome-modern-cpp](https://github.com/rigtorp/awesome-modern-cpp) | A collection of resources on modern C++ | ⭐ 12392 | HTML |
 | [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) | :octocat: A collection of APIs | ⭐ 12240 | N/A |
 | [xgrommx/awesome-redux](https://github.com/xgrommx/awesome-redux) | Awesome list of Redux examples and middlewares | ⭐ 12231 | N/A |
-| [skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets) | 超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西 :zap: | ⭐ 12111 | Shell |
+| [skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets) | 超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西 :zap: | ⭐ 12112 | Shell |
 | [nestjs/awesome-nestjs](https://github.com/nestjs/awesome-nestjs) | A curated list of awesome things related to NestJS 😎 | ⭐ 12049 | N/A |
 | [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security) | 🐶 A curated list of Web Security materials and resources. | ⭐ 12043 | N/A |
 | [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) | A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers. | ⭐ 11986 | N/A |
@@ -141,7 +141,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) | A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources | ⭐ 11663 | N/A |
 | [hua1995116/awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting) | AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等） Stable diffusion、AnimateDiff、Stable Cascade 、Stable SDXL Turbo | ⭐ 11544 | N/A |
 | [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android) | A curated list of awesome Android packages and resources. | ⭐ 11419 | N/A |
-| [ashishps1/awesome-leetcode-resources](https://github.com/ashishps1/awesome-leetcode-resources) | Awesome LeetCode resources to learn Data Structures and Algorithms and prepare for Coding Interviews. | ⭐ 11257 | Java |
+| [ashishps1/awesome-leetcode-resources](https://github.com/ashishps1/awesome-leetcode-resources) | Awesome LeetCode resources to learn Data Structures and Algorithms and prepare for Coding Interviews. | ⭐ 11258 | Java |
 | [EmbraceAGI/awesome-chatgpt-zh](https://github.com/EmbraceAGI/awesome-chatgpt-zh) | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 | ⭐ 11193 | Python |
 | [Heapy/awesome-kotlin](https://github.com/Heapy/awesome-kotlin) | A curated list of awesome Kotlin related stuff Inspired by awesome-java.  | ⭐ 11182 | Kotlin |
 | [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) | ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources. | ⭐ 11171 | N/A |
@@ -197,7 +197,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [grpc-ecosystem/awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc) | A curated list of useful resources for gRPC | ⭐ 7958 | N/A |
 | [olucurious/Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit) | A curated list of awesome ARKit projects and resources. Feel free to contribute! | ⭐ 7950 | Swift |
 | [svcvit/Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow) | 分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows. | ⭐ 7928 | N/A |
-| [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄  A curated list of privacy & security-focused software and services | ⭐ 7895 | Astro |
+| [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄  A curated list of privacy & security-focused software and services | ⭐ 7896 | Astro |
 | [crownpku/Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP) | A curated list of resources for Chinese NLP 中文自然语言处理相关资料 | ⭐ 7890 | N/A |
 | [bnb/awesome-developer-streams](https://github.com/bnb/awesome-developer-streams) | 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming | ⭐ 7830 | N/A |
 | [jobbole/awesome-javascript-cn](https://github.com/jobbole/awesome-javascript-cn) | JavaScript 资源大全中文版，内容包括：包管理器、加载器、测试框架、运行器、QA、MVC框架和库、模板引擎等。由「开源前哨」和「前端大全」微信公号团队维护更新。 | ⭐ 7806 | N/A |
@@ -279,7 +279,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [matter-labs/awesome-zero-knowledge-proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs) | A curated list of awesome things related to learning Zero-Knowledge Proofs (ZKP). | ⭐ 5535 | N/A |
 | [micromata/awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning) | A tiny list limited to the best JavaScript Learning Resources | ⭐ 5529 | N/A |
 | [sqreen/awesome-nodejs-projects](https://github.com/sqreen/awesome-nodejs-projects) | Curated list of awesome open-source applications made with Node.js | ⭐ 5517 | N/A |
-| [WangRongsheng/awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | 🧑‍🚀 全世界最好的LLM资料总结（视频生成、Agent、辅助编程、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.  | ⭐ 5501 | N/A |
+| [WangRongsheng/awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | 🧑‍🚀 全世界最好的LLM资料总结（视频生成、Agent、辅助编程、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.  | ⭐ 5502 | N/A |
 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading. | ⭐ 5490 | Python |
 | [tastejs/awesome-app-ideas](https://github.com/tastejs/awesome-app-ideas) | List of awesome app ideas | ⭐ 5475 | N/A |
 | [onmyway133/awesome-ios-animation](https://github.com/onmyway133/awesome-ios-animation) | :umbrella: A collection of iOS animation repos | ⭐ 5408 | N/A |
@@ -548,7 +548,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) | A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more | 量化交易 | 量化投资 | ⭐ 2830 | HTML |
 | [rafi/awesome-vim-colorschemes](https://github.com/rafi/awesome-vim-colorschemes) | Collection of awesome color schemes for Neo/vim, merged for quick use. | ⭐ 2830 | Vim Script |
 | [lirantal/awesome-nodejs-security](https://github.com/lirantal/awesome-nodejs-security) | Awesome Node.js Security resources | ⭐ 2828 | N/A |
-| [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) | A curated list of awesome AutoHotkey libraries, library distributions, scripts, tools and resources. | ⭐ 2819 | N/A |
+| [ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) | A curated list of awesome AutoHotkey libraries, library distributions, scripts, tools and resources. | ⭐ 2820 | N/A |
 | [MenghaoGuo/Awesome-Vision-Attentions](https://github.com/MenghaoGuo/Awesome-Vision-Attentions) | Summary of related papers on visual attention. Related code will be released based on Jittor gradually.     | ⭐ 2818 | Python |
 | [hoya012/awesome-anomaly-detection](https://github.com/hoya012/awesome-anomaly-detection) | A curated list of awesome anomaly detection resources | ⭐ 2815 | N/A |
 | [qjcg/awesome-typst](https://github.com/qjcg/awesome-typst) | Awesome Typst Links | ⭐ 2812 | Emacs Lisp |
@@ -570,7 +570,7 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [aljazceru/awesome-nostr](https://github.com/aljazceru/awesome-nostr) | nostr.net - awesome-nostr is a collection of projects and resources built on nostr to help developers and users find new things  | ⭐ 2745 | JavaScript |
 | [minar09/awesome-virtual-try-on](https://github.com/minar09/awesome-virtual-try-on) | A curated list of awesome research papers, projects, code, dataset, workshops etc. related to virtual try-on. | ⭐ 2740 | N/A |
 | [JsonChao/Awesome-WanAndroid](https://github.com/JsonChao/Awesome-WanAndroid) | :zap:致力于打造一款极致体验的 http://www.wanandroid.com/ 客户端，知识和美是可以并存的哦QAQn(*≧▽≦*)n | ⭐ 2730 | Java |
-| [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps) | Curated list of the best free apps for PC and mobile | ⭐ 2716 | JavaScript |
+| [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps) | Curated list of the best free apps for PC and mobile | ⭐ 2717 | JavaScript |
 | [awesome-windows11/windows11](https://github.com/awesome-windows11/windows11) | 🌎 Windows 11 Settings, Tweaks, Scripts | ⭐ 2697 | Batchfile |
 | [olilarkin/awesome-musicdsp](https://github.com/olilarkin/awesome-musicdsp) | A curated list of my favourite music DSP and audio programming resources | ⭐ 2692 | N/A |
 | [subeeshvasu/Awesome-Learning-with-Label-Noise](https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise) | A curated list of resources for Learning with Noisy Labels | ⭐ 2681 | N/A |
@@ -846,8 +846,8 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [Fafa-DL/Awesome-Backbones](https://github.com/Fafa-DL/Awesome-Backbones) | Integrate deep learning models for image classification | Backbone learning/comparison/magic modification project | ⭐ 1786 | Python |
 | [mbzuai-oryx/Awesome-LLM-Post-training](https://github.com/mbzuai-oryx/Awesome-LLM-Post-training) | Awesome Reasoning LLM Tutorial/Survey/Guide | ⭐ 1785 | Python |
 | [dabit3/awesome-aws-amplify](https://github.com/dabit3/awesome-aws-amplify) | Curated list of AWS Amplify Resources | ⭐ 1783 | N/A |
+| [wangkai930418/awesome-diffusion-categorized](https://github.com/wangkai930418/awesome-diffusion-categorized) | collection of diffusion model papers categorized by their subareas | ⭐ 1782 | N/A |
 | [hslatman/awesome-industrial-control-system-security](https://github.com/hslatman/awesome-industrial-control-system-security) | A curated list of resources related to Industrial Control System (ICS) security. | ⭐ 1781 | Python |
-| [wangkai930418/awesome-diffusion-categorized](https://github.com/wangkai930418/awesome-diffusion-categorized) | collection of diffusion model papers categorized by their subareas | ⭐ 1781 | N/A |
 | [viandwi24/nuxt3-awesome-starter](https://github.com/viandwi24/nuxt3-awesome-starter) | a Nuxt 3 template and boilerplate with a lot of useful features. Nuxt 3 + Tailwindcss + Nuxt Layer | ⭐ 1780 | Vue |
 | [shahraizali/awesome-django](https://github.com/shahraizali/awesome-django) | The Best Django Resource, Awesome Django for mature packages. | ⭐ 1778 | N/A |
 | [TheComputerM/awesome-svelte](https://github.com/TheComputerM/awesome-svelte) | ⚡ A curated list of awesome Svelte resources | ⭐ 1776 | N/A |
@@ -904,8 +904,8 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 | [yackermann/awesome-webauthn](https://github.com/yackermann/awesome-webauthn) | 🔐 A curated list of awesome WebAuthn and Passkey resources | ⭐ 1681 | N/A |
 | [ChandlerBang/awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn) | Papers about pretraining and self-supervised learning on Graph Neural Networks (GNN). | ⭐ 1681 | Python |
 | [iknowjason/Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs) | Awesome free cloud native security learning labs.  Includes CTF, self-hosted workshops, guided vulnerability labs, and research labs.  | ⭐ 1676 | N/A |
-| [chongyangtao/Awesome-Scene-Text-Recognition](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition) | A curated list of resources dedicated to scene text localization and recognition | ⭐ 1673 | N/A |
 | [M3-org/awesome-metaverse](https://github.com/M3-org/awesome-metaverse) | Awesome metaverse projects | ⭐ 1673 | N/A |
+| [chongyangtao/Awesome-Scene-Text-Recognition](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition) | A curated list of resources dedicated to scene text localization and recognition | ⭐ 1673 | N/A |
 | [mikbry/awesome-webgpu](https://github.com/mikbry/awesome-webgpu) | 😎 Curated list of awesome things around WebGPU ecosystem.  | ⭐ 1672 | N/A |
 | [erikgahner/awesome-ggplot2](https://github.com/erikgahner/awesome-ggplot2) | A curated list of awesome ggplot2 tutorials, packages etc. | ⭐ 1671 | N/A |
 | [arcataroger/awesome-engineering-games](https://github.com/arcataroger/awesome-engineering-games) | A curated list of engineering-related video games rated Very Positive or higher on Steam | ⭐ 1669 | N/A |
