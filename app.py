@@ -95,7 +95,7 @@ def generate_index_html(repos):
 </head>
 <body class="bg-gray-100 min-h-screen p-6">
     <div class="max-w-7xl mx-auto">
-        <h1 class="text-4xl font-bold mb-4">🚀 Awesome Repositories</h1>
+       <img src="assets/awesome-repos.png" width="50px" height="50px"> <h1 class="text-4xl font-bold mb-4">🚀 Awesome Repositories</h1>
         <p class="text-sm text-gray-500 mb-6">Last updated: {timestamp}</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {cards_html}
