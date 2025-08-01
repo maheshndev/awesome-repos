@@ -40,8 +40,8 @@ def generate_index_html(repos):
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     cards_html = "\n".join([
         f"""
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-            <div class="flex items-center space-x-4">
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+            <div class="flex items-center space-x-3">
                 <img src="{repo['owner']['avatar_url']}" alt="avatar" class="w-10 h-10 rounded-full">
                 <div>
                     <a href="{repo['html_url']}" target="_blank" class="text-lg font-bold text-blue-600 hover:underline">
@@ -90,7 +90,7 @@ def generate_index_html(repos):
     <div class="max-w-7xl mx-auto">
         <h1 class="text-4xl font-bold mb-4">🚀 Awesome Repositories</h1>
         <p class="text-sm text-gray-500 mb-6">Last updated: {timestamp}</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {cards_html}
         </div>
     </div>
