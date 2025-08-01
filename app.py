@@ -66,6 +66,24 @@ def generate_index_html(repos):
 <head>
     <meta charset="UTF-8">
     <title>Awesome Repositories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A curated list of awesome repositories for developers, engineers, and tech enthusiasts. Updated regularly.">
+    <meta name="keywords" content="GitHub, repositories, open source, developer tools, awesome list, projects, software, code">
+    <meta name="author" content="Awesome Repositories - M">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Awesome Repositories">
+    <meta property="og:description" content="A curated list of awesome repositories for developers and tech enthusiasts.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maheshndev.github.io/awesome-repos/">
+    <meta property="og:image" content="https://maheshndev.github.io/awesome-repos/assets/awesome-repo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Repositories">
+    <meta name="twitter:description" content="A curated list of awesome repositories for developers and tech enthusiasts.">
+    <meta name="twitter:image" content="https://maheshndev.github.io/awesome-repos/assets/awesome-repo.png">
+
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 min-h-screen p-6">
@@ -78,6 +96,7 @@ def generate_index_html(repos):
     </div>
 </body>
 </html>
+
 """
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)
