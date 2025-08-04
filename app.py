@@ -2,11 +2,14 @@ import requests
 import os
 import json
 from datetime import datetime, timedelta
+import shutil
 
 GITHUB_API_URL = "https://api.github.com/search/repositories"
 HEADERS = {"Accept": "application/vnd.github+json"}
 CACHE_FILE = "repos_cache.json"
 CACHE_DURATION_MINUTES = 30  # adjust if needed
+OLD_DIR = "old"
+HTML_FILE = "index.html"
 
 def fetch_awesome_repositories(per_page=100, max_pages=10, use_cache=True):
     if use_cache and os.path.exists(CACHE_FILE):
@@ -35,6 +38,16 @@ def fetch_awesome_repositories(per_page=100, max_pages=10, use_cache=True):
         json.dump({"fetched_at": datetime.utcnow().isoformat(), "items": all_repos}, f, indent=2)
 
     return all_repos
+
+def backup_old_html():
+    if os.path.exists(HTML_FILE):
+        if not os.path.exists(OLD_DIR):
+            os.makedirs(OLD_DIR)
+        timestamp = datetime.utcnow().strftime("%d-%m-%Y")
+        backup_filename = f"index-{timestamp}.html"
+        backup_path = os.path.join(OLD_DIR, backup_filename)
+        shutil.move(HTML_FILE, backup_path)
+        print(f"Backed up old index.html → {backup_path}")
 
 def generate_index_html(repos):
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -70,32 +83,24 @@ def generate_index_html(repos):
     <meta name="description" content="A curated list of awesome repositories for developers, engineers, and tech enthusiasts. Updated regularly.">
     <meta name="keywords" content="GitHub, repositories, open source, developer tools, awesome list, projects, software, code">
     <meta name="author" content="Awesome Repositories - M">
-   
-    <!-- Favicon and Icons -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/awesome-repo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/awesome-repo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/awesome-repo.png">
     <link rel="shortcut icon" href="assets/awesome-repo.png">
-
-
-    <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Awesome Repositories">
     <meta property="og:description" content="A curated list of awesome repositories for developers and tech enthusiasts.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://maheshndev.github.io/awesome-repos/">
     <meta property="og:image" content="assets/awesome-repo.png">
-
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Awesome Repositories">
     <meta name="twitter:description" content="A curated list of awesome repositories for developers and tech enthusiasts.">
     <meta name="twitter:image" content="assets/awesome-repo.png">
-
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 min-h-screen p-6">
     <div class="max-w-7xl mx-auto">
-       <img src="assets/awesome-repos.png" width="50px" height="50px"> <h1 class="text-4xl font-bold mb-4">🚀 Awesome Repositories</h1>
+        <img src="assets/awesome-repos.png" width="50px" height="50px"> <h1 class="text-4xl font-bold mb-4">🚀 Awesome Repositories</h1>
         <p class="text-sm text-gray-500 mb-6">Last updated: {timestamp}</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {cards_html}
@@ -103,13 +108,12 @@ def generate_index_html(repos):
     </div>
 </body>
 </html>
-
 """
-    with open("index.html", "w", encoding="utf-8") as f:
+    with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(html)
+    print(f"✅ New index.html generated.")
 
 def generate_readme_md(repos):
-    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     rows = "\n".join([
         f"| [{repo['full_name']}]({repo['html_url']}) | {repo.get('description', 'No description.')} | ⭐ {repo['stargazers_count']} | {repo['language'] or 'N/A'} |"
         for repo in repos
@@ -124,8 +128,10 @@ Check On 🫴 [https://maheshndev.github.io/awesome-repos/](https://maheshndev.g
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(markdown)
+    print(f"✅ README.md updated.")
 
 if __name__ == "__main__":
     repos = fetch_awesome_repositories()
+    backup_old_html()
     generate_index_html(repos)
     generate_readme_md(repos)
