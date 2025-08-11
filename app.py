@@ -44,7 +44,7 @@ def backup_old_html():
         if not os.path.exists(OLD_DIR):
             os.makedirs(OLD_DIR)
         timestamp = datetime.utcnow().strftime("%d-%m-%Y")
-        backup_filename = f"index-{timestamp}.html"
+        backup_filename = f"awesome-repos-{timestamp}.html"
         backup_path = os.path.join(OLD_DIR, backup_filename)
         shutil.move(HTML_FILE, backup_path)
         print(f"Backed up old index.html → {backup_path}")
