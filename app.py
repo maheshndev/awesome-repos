@@ -66,7 +66,7 @@ def generate_old_files_section():
     return f"""
     <div class="mt-10 bg-white p-4 rounded-lg shadow">
         <h2 class="text-xl font-bold mb-3">📂 Old Snapshots</h2>
-        <ul class="list-disc list-inside space-y-1">
+        <ul class="list-disc list-inside space-y-1 col">
             {links_html}
         </ul>
     </div>
