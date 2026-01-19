@@ -59,7 +59,7 @@ def generate_old_files_section():
         return ""
 
     links_html = "\n".join([
-        f'<li class="border rounded-md p-2 hover:bg-gray-50"><a href="{OLD_DIR}/{fname}" target="_blank" class="text-blue-600 hover:underline">{fname}</a></li>'
+        f'<li class="p-2 hover:bg-gray-50 "><a href="{OLD_DIR}/{fname}" target="_blank" class="text-blue-600 hover:underline">{fname}</a></li>'
         for fname in files if fname.endswith(".html")
     ])
 
@@ -67,7 +67,7 @@ def generate_old_files_section():
     <div class="mt-10 bg-white p-4 rounded-lg shadow">
         <h2 class="text-xl font-bold mb-3">📂 Old Snapshots</h2>
         <div>
-              <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 list-disc list-inside">
+              <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 list-none">
                 {links_html}
               </ul>
         </div>
