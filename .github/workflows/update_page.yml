@@ -2,18 +2,21 @@ name: Update Awesome Page
 
 on:
   schedule:
-    - cron: '0 0 */7 * *'  # Every 7 days
-  workflow_dispatch:       # Allow manual trigger
-  
+    - cron: '0 0 */7 * *'
+  workflow_dispatch:
+
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repo (FULL history)
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # 🔥 IMPORTANT
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -25,15 +28,17 @@ jobs:
 
       - name: Run update script
         run: python app.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "maheshndev"
-          git config --global user.email "github-actions@github.com"
+          git config user.name "maheshndev"
+          git config user.email "github-actions@github.com"
+
           git add .
           git commit -m "Update awesome repos" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-          
+
+          # 🔥 Pull latest changes safely
+          git pull --rebase origin main
+
+          # 🔥 Push normally
+          git push origin main
