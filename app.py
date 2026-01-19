@@ -59,7 +59,7 @@ def generate_old_files_section():
         return ""
 
     links_html = "\n".join([
-        f'<li class="p-1 hover:rounded hover:bg-green-100"><a href="{OLD_DIR}/{fname}" target="_blank" class="text-blue-600 hover:underline">{fname}</a></li>'
+        f'<li class="p-1 hover:rounded-md hover:bg-green-50"><a href="{OLD_DIR}/{fname}" target="_blank" class="text-blue-600 hover:underline">{fname}</a></li>'
         for fname in files if fname.endswith(".html")
     ])
 
